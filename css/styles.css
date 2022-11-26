@@ -7,3 +7,5 @@ h1, h2, p {
 {
 	color: whitesmoke;
 }
+#my-avatar { width: 140px;
+border-radius: 50%;}
