@@ -1,6 +1,9 @@
 body {
 	background-color: skyblue;
 }
-h1, h2, {
-	color: orange;
+h1, h2, p {
+	color: red;
+}
+{
+	color: whitesmoke;
 }
