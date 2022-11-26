@@ -9,3 +9,6 @@ h1, h2, p {
 }
 #my-avatar { width: 140px;
 border-radius: 50%;}
+#content{
+	text-align: center;
+}
