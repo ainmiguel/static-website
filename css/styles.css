@@ -1,19 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,600&display=swap');
-body {
-	background-color: skyblue;
-	font-family: 'Averia Serif Libre', cursive;
-}
-h1, h2, p {
-	color: red;
-}
+/* CSS reset */
 {
-	color: whitesmoke;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-#my-avatar { width: 140px;
+
+body {
+	background-color: #790252;
+	font-family: 'Averia Serif Libre', cursive;
+	color: #BCCEF8;
+}
+
+#my-avatar { width: 150px;
 border-radius: 50%;}
+
 #content{
 	text-align: center;
 }
+
 #my-name{
 font-family: 'Roboto Serif', serif;
+color: #00D7FF;
+}
+
+#left-side
+{
+width: 50%;
+display: inline-block;
+}
+#right-side
+{
+width: 49%;
+display: inline-block;
+text-align: right;
+}
+a {
+	color: #6EDCD9;
+	text-decoration: none;
+	border-bottom: 1px dotted #6EDCD9;
+}
+header {
+	margin-top: 16px;
+}
+.nav-link {
+	margin-left: 8px;
 }
