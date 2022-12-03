@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,600&display=swap');
 body {
 	background-color: skyblue;
+	font-family: 'Averia Serif Libre', cursive;
 }
 h1, h2, p {
 	color: red;
@@ -11,4 +13,7 @@ h1, h2, p {
 border-radius: 50%;}
 #content{
 	text-align: center;
+}
+#my-name{
+font-family: 'Roboto Serif', serif;
 }
