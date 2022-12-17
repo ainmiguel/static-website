@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,600&display=swap');
+
 /* CSS reset */
-{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -8,7 +9,7 @@
 html,
 body {
 	height: 100vh;
-	width: 100vw;
+	width: 100%;	
 	position: relative;
 }
 
@@ -23,6 +24,7 @@ border-radius: 50%;}
 
 #content{
 	text-align: center;
+	height: 100%;
 }
 
 #my-name{
@@ -32,32 +34,33 @@ color: #00D7FF;
 
 #left-side
 {
-width: 50%;
-display: inline-block;
+position: absolute;
+top: 16px;
+left: 16px;
 }
+
+
+#left-side > a {
+margin-right: 16px;
+}
+
 #right-side
 {
-width: 49%;
-display: inline-block;
-text-align: right;
+position: absolute;
+top: 16px;
+right: 16px;
 }
 a {
 	color: #6EDCD9;
 	text-decoration: none;
 	border-bottom: 1px dotted #6EDCD9;
 }
-header {
-	margin-top: 16px;
-}
-.nav-link {
-	margin-left: 8px;
-}
 footer{
 	position: absolute;
-	bottom: 0;
+	bottom: 16px;
 	left: 50%;
 	transform: translateX(-50%);
-	margin-bottom: 15px;
+
 }
 footer a:first-child {
 	margin-right: 16px;
