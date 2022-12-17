@@ -19,8 +19,9 @@ body {
 	color: #BCCEF8;
 }
 
-#my-avatar { width: 150px;
-border-radius: 50%;}
+#my-avatar { 
+width: 150px;
+border-radius: 1%;}
 
 #content{
 	text-align: center;
@@ -73,3 +74,30 @@ footer a:first-child {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+/* Projects page */
+
+#hero-banner {
+	background: linear-gradient(150deg, red, orange, black);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#hero-banner > div {
+	width: 50%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#hero-banner > div > div {
+	display: inline-block;
+}
+#hero-banner h1,
+#hero-banner h2 {
+	color: blue;
+}
+h3{
+	text-align: center;
+	font-size: 32px;
+}
+
